@@ -69,7 +69,6 @@
             android:textColor="@android:color/white"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:layout_weight="1"
             android:background="@color/colorAccent"
             android:text="@string/register" />
 
@@ -77,10 +76,10 @@
             android:id="@+id/redirectLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="@string/redirectLogin"
-            android:textColor="@android:color/white" />
+            android:text="@string/redirectLogin" />
     </LinearLayout>
 </ScrollView>
